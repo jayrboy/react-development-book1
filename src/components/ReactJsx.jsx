@@ -6,7 +6,7 @@ import AppFn25 from './02-JSX/AppFn25'
 import AppFn26 from './02-JSX/AppFn26'
 import AppFn27 from './02-JSX/AppFn27'
 
-const Jsx = () => {
+const ReactJsx = () => {
   return (
     <div className="container text-center mt-3">
       <div className="row">
@@ -38,4 +38,4 @@ const Jsx = () => {
     </div>
   )
 }
-export default Jsx
+export default ReactJsx

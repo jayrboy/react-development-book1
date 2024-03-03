@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import PageNotFound from './components/PageNotFound'
-import JSX from './components/JSX'
+import ReactJsx from './components/ReactJsx'
 import Props from './components/Props'
 import Styles from './components/Styles'
 import State from './components/State'
@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" exact={true} element={<Home />} />
           <Route path="*" element={<PageNotFound />} />
-          <Route path="/jsx" element={<JSX />} />
+          <Route path="/jsx" element={<ReactJsx />} />
           <Route path="/props" element={<Props />} />
           <Route path="/styles" element={<Styles />} />
           <Route path="/state" element={<State />} />
