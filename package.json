@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://react-redux-101-book.netlify.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
